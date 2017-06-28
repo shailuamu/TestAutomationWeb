@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test Suite" preserve-order="true">
+<listeners>
+    <listener class-name="init.TestNGListener" />
+  </listeners>
+
+<test name="InitializeTest"  >
+    <classes>
+        <class name="init.initTest" ></class> 
+         <class name="bonzai.Login"></class> 
+   
+         <class name="init.endTest"></class> 
+    </classes>
+</test>
+
+</suite>
+
